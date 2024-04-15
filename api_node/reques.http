@@ -1,0 +1,25 @@
+###
+GET http://localhost:8000/api HTTP/1.1
+
+###
+POST http://localhost:8000/api HTTP/1.1
+Content-Type:  application/json
+
+{
+    "nombre" : "Que limpieza de hogar",
+    "tarea": "lavar el baño y lavadero",
+    "descripcion" : "No debe de quedar como pendiente"
+}
+
+###
+DELETE http://localhost:8000/api/1 HTTP/1.1
+
+###
+PUT http://localhost:8000/api/2 HTTP/1.1
+Content-Type:  application/json
+
+{
+    "nombre" : " limpieza de hogar",
+    "tarea": "lavar el baño y lavadero",
+    "descripcion" : "No debe de quedar como pendiente"
+}
